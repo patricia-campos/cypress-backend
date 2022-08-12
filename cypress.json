@@ -1,0 +1,13 @@
+{
+    "env": {
+            "API_BASE_URL2": "https://fakerestapi.azurewebsites.net/api/v1",
+            "ACCESS_TOKEN" :"",
+            "username" :"",
+               "password" :""
+         }
+        
+}
+     
+
+
+

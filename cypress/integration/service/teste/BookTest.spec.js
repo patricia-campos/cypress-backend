@@ -11,7 +11,7 @@ context('Books', () => {
 
 //=========================================================================================================
 
-      it('GET - Consultar Livros', () => {
+      it('GET - Consultar Livros COM SUCESSO', () => {
 
         bookService.getAllBook().as('response')
 
@@ -24,7 +24,7 @@ context('Books', () => {
 
     //===================================================================================================
 
-    it('GET - Consultar Livro por ID', () => {
+    it('GET - Consultar Livro por ID COM SUCESSO', () => {
 
        const idBook = 230;
 
@@ -44,7 +44,7 @@ context('Books', () => {
 
     //===================================================================================================
       
-      it('POST - Adicionar um novo livro', () => {
+      it('POST - Adicionar um novo livro COM SUCESSO', () => {
 
         const idBook = 230; 
 
@@ -64,7 +64,7 @@ context('Books', () => {
 
       //===================================================================================================
 
-       it('DELETE - Deletar  livro', () => {
+       it('DELETE - Deletar  livro COM SUCESSO', () => {
 
         const idBook = 230;
 
@@ -80,7 +80,7 @@ context('Books', () => {
 
       //=================================================================================================== 
 
-       it('PUT - Alterar livro', () => {
+       it('PUT - Alterar livro COM SUCESSO', () => {
 
         const idBook = 230;
 
